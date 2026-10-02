@@ -217,6 +217,7 @@ if summary_button:
         with st.spinner("📖 Creating document summary..."):
 
             try:
+                
 
                 result = generate_answer(
                     "Summarize the main concepts and important points from the uploaded document.",
